@@ -6,16 +6,18 @@
 int
 main(int argc, char *argv[])
 {
-  int i;
-  int8 n = 37925826606;
+  int8 n = 0;
+  int v = 0;
 
-  printf("%llu (%d bytes)\n", n, sizeof(n));
+  if (argc == 2)
+  {
+    n = atoll(argv[1]);
+    v = cpf_valido(n);
+    printf("CPF %llu => %sválido\n", n, v ? "" : "in");
+    return v;
+  }
 
-  printf("válido? %d\n", cpf_valido(n));
-  printf("válido? %d\n", cpf_valido(37925826605));
-
-  for (i = 1; i < argc; i++)
-    printf("%s\n", argv[i]);
-
-  return 0;
+  printf("Sintaxe: %s <CPF>\n", argv[0]);
+  return 2;
 }
+

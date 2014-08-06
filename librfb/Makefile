@@ -20,6 +20,7 @@ install: librfb.so
 
 test: valcpf
 	LD_LIBRARY_PATH=. ./valcpf 87676876674
+	LD_LIBRARY_PATH=. ./valcpf 11111111111
 
 debug:
 	gdb --args valcpf 87676876674
