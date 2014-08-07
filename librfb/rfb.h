@@ -1,3 +1,13 @@
+/*-------------------------------------------------------------------------
+ *
+ * rfb.h
+ *	  Funções de Cadastros da RFB (CPF, CNPJ, etc)
+ *
+ * Author: Rodrigo Hjort <rodrigo.hjort@gmail.com>
+ *
+ *-------------------------------------------------------------------------
+ */
+
 #ifndef RFB_H
 #define RFB_H
 

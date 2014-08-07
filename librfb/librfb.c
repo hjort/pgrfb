@@ -1,3 +1,13 @@
+/*-------------------------------------------------------------------------
+ *
+ * librfb.c
+ *	  Funções de Cadastros da RFB (CPF, CNPJ, etc)
+ *
+ * Author: Rodrigo Hjort <rodrigo.hjort@gmail.com>
+ *
+ *-------------------------------------------------------------------------
+ */
+
 #include <stdio.h>
 #include <stdlib.h>
 
