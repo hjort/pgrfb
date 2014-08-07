@@ -1,0 +1,5 @@
+# pgrfb extension
+comment = 'Funções de suporte a códigos de Cadastros da RFB (CPF, CNPJ, etc)'
+default_version = '1.0'
+module_pathname = '$libdir/pgrfb'
+relocatable = true
