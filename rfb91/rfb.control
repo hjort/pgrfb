@@ -1,5 +1,0 @@
-# rfb extension
-comment = 'Funções para validação de códigos de cadastros da RFB (CPF, CNPJ, etc)'
-default_version = '1.0'
-module_pathname = '$libdir/rfb'
-relocatable = true

@@ -1,9 +1,0 @@
-CREATE FUNCTION cpf_valido(int8)
-	RETURNS boolean
-<<<<<<< HEAD
-	AS 'MODULE_PATHNAME', 'pg_cpf_valido'
-=======
-	AS 'MODULE_PATHNAME'
->>>>>>> 11739db78836289f73999046b978a35c6119d728
-	LANGUAGE 'C'
-	IMMUTABLE STRICT;
